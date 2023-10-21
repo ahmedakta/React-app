@@ -2,13 +2,22 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = "Ahmet"
+  const surname = "Akta"
+  const age = 20
+  const career = 'Programmer'
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <h1>{name}</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {name} React Project
         </p>
+        {name} is : 
+        <ul>
+          <li>
+            {career}
+          </li>
+        </ul>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +26,6 @@ function App() {
         >
           Learn React
         </a>
-      </header>
     </div>
   );
 }
