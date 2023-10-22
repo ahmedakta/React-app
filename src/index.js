@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 // Import Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-
+// get our fontawesome imports
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
