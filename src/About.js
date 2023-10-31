@@ -7,7 +7,7 @@ function About(){
     }
     return(
         <div className="container">
-            {/* <h2>About US , {firstName}</h2> */}
+            <h2>About US , {firstName}</h2>
             {/* <button className="btn btn-danger" onClick={changeName} type="button"> Click Me </button> */}
         </div>
 
